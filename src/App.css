@@ -1,0 +1,177 @@
+/*-------------------------*/
+/*   Custom properties     */
+/*-------------------------*/
+:root {
+  /*  colors */
+  /* primary colors */
+  --clr-khaki: rgba(21, 68, 68, 1);
+  --clr-khaki-text: rgba(68, 68, 68, 1);
+  --clr-circle-logo:  rgba(236, 244, 255, 1);
+  --clr-orange-logo:  rgba(239, 84, 35, 1);
+  --clr-grey-text: rgba(145, 144, 144, 1);
+  --clr-yellow-logo: rgba(255, 182, 36, 1);
+  
+  
+  --clr-black: 270 3 11;
+  --clr-white: rgba(255, 255, 255, 1);
+  /* secondary colors */
+  --clr-hue: rgba(222, 228, 226, 1);
+  --clr-hue2: rgba(244, 246, 246, 1);
+ 
+
+  /*  typography  --heading  */
+  --sz-h1: 3.5rem;
+  --sz-h2: 2rem;
+  --sz-h3: 1.5rem;
+
+  /*  typography  --body  */
+  --sz-p-m: 1.25rem;
+  --sz-p-s: 1.125;
+
+  /*  font-family */
+ 
+  --font-Montserrat: "Montserrat", serif;
+
+  --general-space-bottom: 160px;
+}
+
+
+/*-------------------------*/
+/*        Reset            */
+/*-------------------------*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-Montserrat);
+}
+
+/* body {
+ 
+   font-size: 1rem;
+  color: hsl(var(--clr-black)); 
+} */
+
+/*-------------------------*/
+/*  Utility classes        */
+/*-------------------------*/
+
+/*  general  */
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/*  Colors  */
+
+.cr-khaki {
+  color: hsl(var(--clr-khaki));
+}
+.cr-khaki {
+  color: hsl(var(--clr-khaki-text));
+}
+.cr-circle {
+  color: hsl(var(--clr-circle-logo));
+}
+.cr-orange {
+  color: hsl(var(--clr-orange-logo));
+}
+.cr-grey {
+  color: hsl(var(--clr-grey-text));
+}
+.cr-grey {
+  color: hsl(var(--clr-yellow-logo));
+}
+
+
+.cr-black {
+  color: hsl(var(--clr-black));
+}
+.cr-white {
+  color: hsl(var(--clr-white));
+}
+.cr-hue {
+  color: hsl(var(--clr-hue));
+}
+.cr-hue2 {
+  color: hsl(var(--clr-hue2));
+}
+
+
+/*  Typography */
+
+.fs-h1 {
+  font-size: var(--sz-h1);
+}
+.fs-h2 {
+  font-size: var(--sz-h2);
+}
+.fs-h3 {
+  font-size: var(--sz-h3);
+}
+
+.fs-p-m {
+  font-size: var(--sz-p-m);
+}
+
+.fs-p-s {
+  font-size: var(--sz-p-s);
+}
+
+
+
+
+
+
+.line-height68 {
+  line-height: 4.266rem;
+}
+
+.line-height41 {
+  line-height: 2.604rem;
+}
+
+.line-height29 {
+  line-height: 1.829rem;
+}
+
+.line-height27 {
+  line-height: 1.688rem;
+}
+
+.line-height25 {
+  line-height: 1.563rem;
+}
+
+.line-height23 {
+  line-height: 1.465rem;
+}
+
+
+
+
+
+
+/*-------------------------*/
+/*  Components             */
+/*-------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  /* letter-spacing: 5px; */
+  /* line-height: 5px; */
+  font-family: "Montserrat", serif;
+}
+
+
+p {
+  font-weight: 400;
+  font-family: "Montserrat", serif;
+}

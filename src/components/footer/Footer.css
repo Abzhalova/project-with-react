@@ -1,0 +1,133 @@
+#footer {
+  width: 1520px;
+  height: 410px;
+  margin-top: 130px;
+  background-color: var(--clr-khaki);
+}
+
+.footer-card * h3 {
+  color: var(--clr-white);
+}
+
+.footer-icon {
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+.bg-icon {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50px;
+  /* border: 1px solid rced; */
+}
+.bg-icon * {
+  margin: 5px 5px 10px 5px;
+}
+
+.dudeShape-block {
+  width: 300px;
+  height: 240px;
+  margin-top: 120px;
+  margin-left: 120px;
+  /* border: 1px solid red; */
+}
+.dudeShape-block h2 {
+  width: 300px;
+  height: 50px;
+  color: var(--clr-white);
+}
+.dudeShape-block p {
+  width: 260px;
+  height: 100px;
+
+  color: var(--clr-white);
+}
+
+.take-block {
+  width: 117px;
+  height: 189px;
+  margin-top: 80px;
+  margin-left: 120px;
+  /* border: 1px solid red; */
+}
+
+.take-text {
+  width: 89px;
+  height: 140px;
+  margin-top: 15px;
+  /* border: 1px solid red; */
+}
+.take-text > * {
+  padding-top: 5px;
+  color: var(--clr-white);
+}
+
+.comp-block {
+  width: 130px;
+  height: 189px;
+  margin-top: 80px;
+  margin-left: 120px;
+  /* border: 1px solid red; */
+}
+.comp-text {
+  width: 89px;
+  height: 140px;
+  margin-top: 15px;
+  /* border: 1px solid red; */
+}
+.comp-text > * {
+  padding-top: 5px;
+  color: var(--clr-white);
+}
+
+.subscribe-block {
+  width: 310px;
+  height: 220px;
+  margin-top: 110px;
+  margin-left: 150px;
+  /* border: 1px solid red; */
+}
+.subscribe-text {
+  width: 200px;
+  color: var(--clr-white);
+  /* border: 1px solid red; */
+}
+.subscribe-text p {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.btn-block-foot {
+  width: 310px;
+  height: 48px;
+  background-color: var(--clr-white);
+  /* border: 1px solid red; */
+}
+.btn-block-foot > input {
+  border: none;
+  margin-left: 15px;
+}
+.btn-foot {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  border: none;
+  margin-left: 70px;
+  margin-top: 5px;
+  background-color: var(--clr-yellow-logo);
+}
+
+hr {
+  border: 1px solid var(--clr-grey-text);
+}
+
+.foot-text {
+  width: 1520px;
+  height: 300px;
+  margin-left: 600px;
+  margin-top: 10px;
+  color: var(--clr-white);
+}

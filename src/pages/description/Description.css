@@ -1,0 +1,47 @@
+.desc-card{
+    width: 1250px;
+    height: 580px;
+    margin-left: 120px;
+    margin-top: 150px;
+    color: var(--clr-khaki-text);
+    /* border: 1px solid red; */
+}
+
+.desc-img img{
+    width: 600px;
+    height: 580px;
+}
+
+
+.desc-logo{
+    width: 600px;
+    height: 500px;
+    margin-left: 100px;
+    
+    /* border: 1px solid rgb(118, 12, 247); */
+}
+
+.line-text{
+    width: 480px;
+    height: 80px;
+    margin-bottom: 30px;
+    /* border: 1px solid rgb(220, 12, 247); */
+}
+
+.line{
+    width: 400px;
+    height: 80px;
+    margin-bottom: 30px;
+    /* border: 1px solid rgb(59, 247, 12); */
+}
+
+.desc-logo *{
+    margin-top: 5px;
+}
+
+.logo-desc-img{
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}

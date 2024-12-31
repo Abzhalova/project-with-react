@@ -1,0 +1,34 @@
+.logo-card{
+    width: 1150px;
+    height: 110px;
+    margin-left: 155px;
+    margin-top: 160px;
+    /* border: 1px solid red; */
+}
+
+.logo-text{
+    width:  500px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    color: var(--clr-khaki);
+    justify-content: center;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    /* border: 1px solid red; */
+}
+
+.logo-img{
+    width: 1150px;
+    height: 50px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.logo-img img{
+    width: 100px;
+    height: 40px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    
+}
