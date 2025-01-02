@@ -40,7 +40,7 @@
   color: var(--clr-white);
 }
 .dudeShape-block p {
-  width: 260px;
+  width: 290px;
   height: 100px;
 
   color: var(--clr-white);
@@ -66,14 +66,14 @@
 }
 
 .comp-block {
-  width: 130px;
+  width: 150px;
   height: 189px;
   margin-top: 80px;
   margin-left: 120px;
   /* border: 1px solid red; */
 }
 .comp-text {
-  width: 89px;
+  width:95px;
   height: 140px;
   margin-top: 15px;
   /* border: 1px solid red; */
@@ -96,6 +96,7 @@
   /* border: 1px solid red; */
 }
 .subscribe-text p {
+  width: 250px;
   padding-top: 20px;
   padding-bottom: 25px;
 }
